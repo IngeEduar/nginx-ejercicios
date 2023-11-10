@@ -1,0 +1,14 @@
+Port 22
+PermitRootLogin yes
+PermitEmptyPasswords no
+PubkeyAuthentication yes
+PasswordAuthentication yes
+
+Subsystem sftp internal-sftp
+Match User eduar
+  ChrootDirectory /incoming
+  X11Forwarding no
+  AllowTcpForwarding no
+  ForceCommand internal-sftp
+
+

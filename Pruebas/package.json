@@ -1,0 +1,30 @@
+{
+  "name": "prueba_gopenux",
+  "version": "0.1.0",
+  "description": "prueba tecnica de gopenux una rest api sencilla",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsantoss/Gopenux_prueba.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "npm",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "devsantoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsantoss/Gopenux_prueba/issues"
+  },
+  "homepage": "https://github.com/devsantoss/Gopenux_prueba#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 

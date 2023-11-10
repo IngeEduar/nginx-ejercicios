@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ubuntu-ssh:
+    build:
+      context: /home/eduar/arquitecturaSistemas/SSHConecction
+    container_name: ubuntu-ssh-container
+    ports:
+      - "22:22"  # Redirige el puerto 2222 del host al puerto 22 del contenedor
+    volumes:
+      - ./sshd_config:/etc/ssh/sshd_config  # Monta el archivo de configuración SSH

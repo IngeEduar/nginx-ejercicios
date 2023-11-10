@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  api:
+    image: api-node:latest
+    ports:
+      - 3001:3000
